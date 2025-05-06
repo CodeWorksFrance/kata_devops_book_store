@@ -1,0 +1,18 @@
+{
+  "name": "book_store",
+  "version": "1.0.0",
+  "description": "a simple book store web application",
+  "homepage": "https://github.com/CodeWorksFrance/kata_devops_book_store",
+  "author": "",
+  "type": "commonjs",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "ncc build src/main.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
