@@ -1,0 +1,23 @@
+{
+  "name": "kata_devops_library",
+  "version": "1.0.0",
+  "description": "library repo for devops training",
+  "homepage": "https://github.com/CodeWorksFrance/kata_devops_library#readme",
+  "bugs": {
+    "url": "https://github.com/CodeWorksFrance/kata_devops_library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWorksFrance/kata_devops_library.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
