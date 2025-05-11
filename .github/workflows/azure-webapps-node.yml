@@ -29,6 +29,7 @@ env:
 
 permissions:
   contents: read
+  packages: read
 
 jobs:
   build:
@@ -40,6 +41,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ env.NODE_VERSION }}
+        registry-url: https://npm.pkg.github.com/
         cache: 'npm'
 
     - name: Build standalone js file
