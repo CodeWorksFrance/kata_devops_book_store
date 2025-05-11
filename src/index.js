@@ -1,4 +1,6 @@
 const express = require("express");
+const { getBooks } = require("@codeworksfrance/catalog")
+
 const app = express();
 const port = normalizePort(process.env.PORT)
 
@@ -27,6 +29,11 @@ function normalizePort(val) {
 
 app.get("/", (req, res) => {
     res.send("Hello World!");
+});
+
+app.get("/books", (req, res) => {
+    const books = getBooks()
+    res.send(books)
 });
 
 app.listen(port, () => {
