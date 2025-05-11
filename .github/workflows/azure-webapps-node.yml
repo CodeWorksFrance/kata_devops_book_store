@@ -45,7 +45,7 @@ jobs:
     - name: Build standalone js file
       run: |
         npm ci
-        npm build
+        npm run build
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v4
