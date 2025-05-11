@@ -1,16 +1,8 @@
 {
-  "name": "kata_devops_library",
+  "name": "book_store",
   "version": "1.0.0",
-  "description": "library repo for devops training",
-  "homepage": "https://github.com/CodeWorksFrance/kata_devops_library#readme",
-  "bugs": {
-    "url": "https://github.com/CodeWorksFrance/kata_devops_library/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodeWorksFrance/kata_devops_library.git"
-  },
-  "license": "MIT",
+  "description": "a simple book store web application",
+  "homepage": "https://github.com/CodeWorksFrance/kata_devops_book_store",
   "author": "",
   "type": "commonjs",
   "main": "dist/index.js",
