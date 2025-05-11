@@ -13,11 +13,14 @@
   "license": "MIT",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": ""
+    "build": "ncc build src/index.js"
   },
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
   }
 }
