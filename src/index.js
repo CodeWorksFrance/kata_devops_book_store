@@ -36,6 +36,13 @@ app.get("/books", (req, res) => {
     res.send(books)
 });
 
+app.get("/crash", (req, res) => {
+  const badId = "no-such-id"
+  const books = getBooks()
+  const book = books[badId]
+  res.send(book.title)
+});
+
 app.listen(port, () => {
     console.log(`App is listening at ${port}!`);
 });
