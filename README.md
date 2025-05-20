@@ -1,4 +1,4 @@
-# kata_devops_book_store
+# Kata DevOps : A Book Store Application
 
 Web application repo for devops training
 
