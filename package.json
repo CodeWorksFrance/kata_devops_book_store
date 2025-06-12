@@ -5,9 +5,9 @@
   "homepage": "https://github.com/CodeWorksFrance/kata_devops_book_store",
   "author": "",
   "type": "commonjs",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "ncc build src/index.js"
+    "build": "ncc build src/main.js"
   },
   "dependencies": {
     "@codeworksfrance/catalog": "1.0.5",
@@ -16,6 +16,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.3"
+    "@vercel/ncc": "^0.38.3",
+    "standard": "^17.1.2"
   }
 }
