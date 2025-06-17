@@ -10,6 +10,7 @@
     "build": "ncc build src/main.js"
   },
   "dependencies": {
+    "@codeworksfrance/catalog": "^1.0.7",
     "@vercel/ncc": "^0.38.3",
     "express": "^5.1.0",
     "ncc": "^0.3.6"

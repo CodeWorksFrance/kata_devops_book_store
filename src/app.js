@@ -1,4 +1,5 @@
 const express = require('express')
+const { getBooks } = require('@codeworksfrance/catalog')
 
 const app = express()
 
@@ -10,8 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/books', (req, res) => {
-  // TODO : use the geBooks() method form `@codeworksfrance/catalog`
-  res.send([])
+  res.send(getBooks())
 })
 
 app.get('/crash', (req, res) => {
