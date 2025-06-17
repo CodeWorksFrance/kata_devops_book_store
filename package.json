@@ -10,7 +10,9 @@
     "build": "ncc build src/main.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@vercel/ncc": "^0.38.3",
+    "express": "^5.1.0",
+    "ncc": "^0.3.6"
   },
   "devDependencies": {
     "standard": "^17.1.2"
