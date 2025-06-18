@@ -16,6 +16,16 @@ app.use((req, res, next) => {
     },
     'Got request'
   )
+  res.on('finish', () => {
+    const { statusCode } = res
+    logger.info(
+      {
+        method,
+        originalUrl,
+        statusCode
+      },
+      'Response sent' )
+  })
   next()
 })
 
