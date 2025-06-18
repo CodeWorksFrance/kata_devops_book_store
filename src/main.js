@@ -3,11 +3,12 @@ appInsights.setup("InstrumentationKey=3f755261-82c7-4c44-a2af-d80bc59f9c40;Inges
 appInsights.start();
 
 const app = require('./app.js')
-const { getListeningPort } = require('./env.js')
+const { getListeningPort } = require('./env.js');
+const logger = require('./logger.js');
 
 const port = getListeningPort()
 
-console.log('Starting the application')
+logger.info('Starting the application')
 app.listen(port, () => {
-  console.log(`Lstening on ${port}`)
+  logger.info(`Listening on ${port}`)
 })

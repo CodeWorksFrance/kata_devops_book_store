@@ -7,13 +7,14 @@
   "type": "commonjs",
   "main": "dist/main.js",
   "scripts": {
-    "start":"node src/main.js",
+    "start": "node src/main.js",
     "build": "ncc build src/main.js"
   },
   "dependencies": {
     "@codeworksfrance/catalog": "^1.0.7",
     "@vercel/ncc": "^0.38.3",
     "applicationinsights": "^3.7.0",
+    "bunyan": "^1.8.15",
     "express": "^5.1.0",
     "ncc": "^0.3.6"
   },
